@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="39.30783">
+<testcase classname="Login Functionality" name="enter System UserName and click search button" time="13.501506">
+<system-out><![CDATA[Given User clicks admin tab.................................................passed
+Then User clicks user management tab........................................passed
+Then User enters system username "admin"....................................passed
+Then User clicks search button..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="User is redirected to federated provider" time="13.68328">
+<system-out><![CDATA[Given User clicks PIM tab...................................................passed
+Then User enters the ID "data" and rownumber 0..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="User is redirected to federated provider 2" time="12.123044">
+<system-out><![CDATA[Given User clicks PIM tab...................................................passed
+Then User enters the ID "data" and rownumber 1..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

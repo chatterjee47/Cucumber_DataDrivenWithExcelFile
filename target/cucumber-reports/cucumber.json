@@ -1,0 +1,259 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10213503100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "enter System UserName and click search button",
+        "description": "",
+        "id": "login-functionality;enter-system-username-and-click-search-button;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 725722800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1684174900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks admin tab",
+            "match": {
+              "location": "AdminStep.user_clicks_admin_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85096400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks user management tab",
+            "match": {
+              "location": "AdminStep.user_clicks_user_management_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95637300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters system username \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 29
+                }
+              ],
+              "location": "AdminStep.user_enters_system_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 697371100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks search button",
+            "match": {
+              "location": "AdminStep.user_clicks_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Admin"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8952727100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User is redirected to federated provider",
+        "description": "",
+        "id": "login-functionality;user-is-redirected-to-federated-provider;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 739182400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1941776000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks PIM tab",
+            "match": {
+              "location": "PIMSteps.user_clicks_PIM_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2049594300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters the ID \"data\" and rownumber 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data",
+                  "offset": 20
+                },
+                {
+                  "val": "0",
+                  "offset": 40
+                }
+              ],
+              "location": "PIMSteps.user_enters_the_ID_and_rownumber(String,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@PIM"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9225691900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User is redirected to federated provider",
+        "description": "",
+        "id": "login-functionality;user-is-redirected-to-federated-provider;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 776971300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1802884000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks PIM tab",
+            "match": {
+              "location": "PIMSteps.user_clicks_PIM_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 317496400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters the ID \"data\" and rownumber 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data",
+                  "offset": 20
+                },
+                {
+                  "val": "1",
+                  "offset": 40
+                }
+              ],
+              "location": "PIMSteps.user_enters_the_ID_and_rownumber(String,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@PIM"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "loginpage.feature"
+  }
+]
